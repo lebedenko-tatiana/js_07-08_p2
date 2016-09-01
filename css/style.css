@@ -30,6 +30,7 @@
 
 .ftooltip__label {
   display: block;
+  position: relative;
   margin-left: 10px;
   margin-top: 10px;
   margin-bottom: 30px;
@@ -41,9 +42,10 @@ span {
 }
 
 .ftooltip__tips {
-//  display: inline-block;
   display: none;
-  margin-left: 10px;
+  position: absolute;
+  left: 45%;
+  top: 0;
   width: auto;  
   text-align: center;
   box-shadow: 0 0 5px 1px #ccc;
